@@ -1,0 +1,21 @@
+languageCode = "en-us"
+title = "soypunk"
+baseurl = "https://soypunk.me/"
+canonifyurls = false
+PluralizeListTitles = false
+
+[author]
+    name = "Shawn Medero"
+
+[indexes]
+    tag = "tags"
+    topic = "topics"
+
+[taxonomies]
+	category = "topics"
+	tag = "tags"
+
+[params]
+	blogSubtitle = ""
+	description = ""
+	author = "Shawn Medero"

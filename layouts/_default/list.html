@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+{{ partial "subheader.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+<section id="main">
+   <h1 id="title">{{ .Title }}</h1>
+	   {{ range .Data.Pages.GroupByDate "2006-01" }}
+	   <h2>{{ .Key }}</h2>
+		   <ul id="list">
+			   {{ range .Pages }}
+				   {{ .Render "li"}}
+			   {{ end }}
+		   </ul>
+	   {{ end }}
+</section>
+
+{{ partial "footer.html" . }}
