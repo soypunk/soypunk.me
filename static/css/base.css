@@ -522,8 +522,8 @@ h1 {
       margin: 0 0 25px 0; } }
   h1#site-title {
   	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 32px;
+    line-height: 50px;
     font-weight: 400;
     clear: both;
     text-align: left;
@@ -534,8 +534,8 @@ h1 {
       h1#site-title {
         line-height: 25px; } }
     h1#site-title a {
-      font-size: 16px;
-      line-height: 25px; }
+	  font-size: 32px;
+	  line-height: 50px; }
 
 h1 + h2 {
   margin: -32px 0 32px 0; }
@@ -851,6 +851,19 @@ body > header {
 
 body > footer {
   margin: 0 0 32px 0; }
+
+.center {
+  max-width: 800px;
+  padding: 0 32px;
+  margin: 0 auto 64px auto; }
+  @media only screen and (max-width: 767px) {
+    .center {
+      padding: 0 16px;
+      margin: 0 auto 25px auto; } }
+  @media only screen and (max-width: 374px) {
+    .center {
+      padding: 0 12.5px;
+      margin: 0 auto 25px auto; } }
 
 /*--------------------------------------------------------------
 Animations
