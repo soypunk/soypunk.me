@@ -3,8 +3,9 @@ title = "soypunk"
 baseurl = "https://soypunk.me/"
 canonifyurls = false
 PluralizeListTitles = false
-permalinks:
-  post: /:year/:month/:title/
+
+[permalinks]
+  post = "/:year/:month/:title/"
 
 [author]
     name = "Shawn Medero"
