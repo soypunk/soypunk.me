@@ -1,4 +1,4 @@
-	<li>
-		<a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a>
-		<div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-	</li>
+    <li class="item">
+    	<div class="item-body"><a class="item-title" href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></div>
+		<div class="item-meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    </li>

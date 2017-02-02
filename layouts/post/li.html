@@ -1,0 +1,14 @@
+    <li class="item post">
+		<h3 class="item-title post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h3>    
+		<div class="item-meta post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    	<div class="item-body post-body">
+			<section class="item-summary post-summary">
+			{{ .Summary }}{{ if .Truncated }}…{{ end }}
+			{{ if .Truncated }}
+				<div class="read-more-link">
+					<a href="{{ .Permalink }}" rel="permalink" title="Read More…">➝</a>
+				</div>	
+  			{{ end }}
+			</section>
+    	</div>
+    </li>
