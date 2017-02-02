@@ -470,7 +470,7 @@ body {
 	background: #FDFDFD;
 }
 
-* {
+body {
 	font-size: 100%;
 	font-size: 19px;
 	font-weight: 400;
@@ -687,6 +687,105 @@ time {
   @media only screen and (max-width: 374px) {
     time {
       margin-bottom: 25px; } }
+      
+/*--------------------------------------------------------------
+Elements
+--------------------------------------------------------------*/
+ul,
+ol {
+  margin: 0 0 32px 0; }
+
+ul {
+  list-style: disc; }
+  ul ul, ul ol {
+    margin: 0 0 0 32px; }
+    ul ul ul, ul ul ol, ul ol ul, ul ol ol {
+      margin: 0 0 0 64px; }
+
+ol {
+  list-style: decimal; }
+  ol ul, ol ol {
+    margin: 0 0 0 32px; }
+    ol ul ul, ol ul ol, ol ol ul, ol ol ol {
+      margin: 0 0 0 64px; }
+
+article ol {
+  list-style: decimal outside; }
+  @media only screen and (max-width: 767px) {
+    article ol {
+      list-style: decimal inside; } }
+
+article ul {
+  list-style: disc outside; }
+  @media only screen and (max-width: 767px) {
+    article ul {
+      list-style: disc inside; } }
+
+dt {
+  font-weight: bold; }
+
+dd {
+  margin: 0 0 32px 0; }
+
+hr {
+  background-color: #222222;
+  border: 0;
+  height: 1px; }
+
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */ }
+  @media only screen and (max-width: 374px) {
+    img {
+      float: none; } }
+      
+#main figure {
+  line-height: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  display: block;
+  text-align: center;
+  /* wordpress auto-p */ }
+  @media only screen and (max-width: 767px) {
+    #main figure {
+      margin-bottom: 25px; } }
+  @media only screen and (max-width: 374px) {
+    #main figure {
+      margin-bottom: 25px; } }
+  #main figure figcaption {
+    margin-top: 16px; }
+    @media only screen and (max-width: 767px) {
+      #main figure figcaption {
+        margin-top: 12.5px; } }
+    @media only screen and (max-width: 374px) {
+      #main figure figcaption {
+        margin-top: 12.5px; } }
+  #main figure p {
+    display: none; }
+#main > a > img, #main > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px; }
+  
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+  max-width: 100%;
+  margin-bottom: 32px; }
+  @media only screen and (max-width: 767px) {
+    embed,
+    iframe,
+    object {
+      margin-bottom: 25px; } }
+  @media only screen and (max-width: 374px) {
+    embed,
+    iframe,
+    object {
+      margin-bottom: 25px; } }  
 
 /*--------------------------------------------------------------
 Links
@@ -709,6 +808,26 @@ h1 a:hover {
   text-decoration: none !important; }
 
 /*--------------------------------------------------------------
+Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after,
+body > header:before,
+body > header:after,
+#main:before,
+#main:after,
+body > footer:before,
+body > footer:after {
+  content: "";
+  display: table; }
+
+.clear:after,
+body > header:after,
+#main:after,
+body > footer:after {
+  clear: both; }
+
+/*--------------------------------------------------------------
 Layout
 --------------------------------------------------------------*/
 
@@ -718,6 +837,20 @@ Layout
   -ms-animation: fadeIn 0.6s ease-in-out;
   -o-animation: fadeIn 0.6s ease-in-out;
   animation: fadeIn 0.6s ease-in-out; }
+  
+body > header {
+  margin: 32px 0 0 0;
+  position: relative;
+  width: 100%; }
+  @media only screen and (max-width: 767px) {
+    body > header {
+      margin: 25px 0 25px 0; } }
+  @media only screen and (max-width: 374px) {
+    body > header {
+      margin: 25px 0 25px 0; } }
+
+body > footer {
+  margin: 0 0 32px 0; }
 
 /*--------------------------------------------------------------
 Animations
