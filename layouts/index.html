@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+{{ partial "subheader.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+<section id="main" role="main">
+	<h2>Blog</h2>
+	<ul class="items">
+	{{ range first 10 (where .Data.Pages "Type" "=" "Post") }}
+		{{ .Render "li"}}
+	{{ end }}
+	</ul>
+</section>
+
+{{ partial "footer.html" . }}
