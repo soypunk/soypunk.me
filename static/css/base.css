@@ -862,8 +862,8 @@ body > footer {
 
 .center {
   max-width: 800px;
-  padding: 0 32px;
-  margin: 0 auto 64px auto; }
+  padding: 0 16px;
+  margin: 0 auto 32px auto; }
   @media only screen and (max-width: 767px) {
     .center {
       padding: 0 16px;

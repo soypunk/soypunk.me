@@ -3,7 +3,6 @@
 {{ $baseurl := .Site.BaseURL }}
 
 <section id="main" role="main" class="center">
-	<h2 class="section-title">Blog</h2>
 	<ul class="items">
 	{{ range first 10 (where .Data.Pages "Type" "=" "Post") }}
 		{{ .Render "li"}}
