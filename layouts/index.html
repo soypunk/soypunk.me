@@ -4,7 +4,7 @@
 
 <section id="main" role="main" class="center">
 	<ul class="items">
-	{{ range first 10 (where .Data.Pages "Section" "Post") }}
+	{{ range first 10 (where .Data.Pages "Section" "post") }}
 		{{ .Render "li"}}
 	{{ end }}
 	</ul>
