@@ -3,6 +3,7 @@
 {{ $baseurl := .Site.BaseURL }}
 
 <section id="main" role="main" class="center">
+{{ if .IsHome }}<h2>Hi my name is</h2>{{ end }}
 	<ul class="items">
 	{{ range first 10 (where .Data.Pages "Section" "post") }}
 		{{ .Render "li"}}
