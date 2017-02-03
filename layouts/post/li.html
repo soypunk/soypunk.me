@@ -3,12 +3,7 @@
 		<div class="item-meta post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
     	<div class="item-body post-body">
 			<section class="item-summary post-summary">
-			{{ .Summary }}{{ if .Truncated }}…{{ end }}
-			{{ if .Truncated }}
-				<div class="read-more-link">
-					<a href="{{ .Permalink }}" rel="permalink" title="Read More…">➝</a>
-				</div>	
-  			{{ end }}
+				{{ .Content }}
 			</section>
     	</div>
     </li>
