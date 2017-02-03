@@ -472,8 +472,8 @@ body {
 
 body {
 	font-size: 100%;
-	font-size: 22.652px;
-	line-height: 1.416;	
+	font-size: 16px;
+	line-height: 1.416;
 	font-weight: 400;
 	font-family: "Merriweather", "Georgia", Times, "Times New Roman", serif;
 	color: #222222;
@@ -658,14 +658,6 @@ sup {
 sub {
   top: .5ex; }
 
-a:link {
-  color: #222222; }
-a:visited {
-  color: #222222; }
-a:hover {
-  color: #222222; }
-a:active {
-  color: #222222; }
 a.custom {
   text-decoration: none; }
 
@@ -680,20 +672,29 @@ figure + p {
   text-indent: 0; }
   
 time {
-  margin-bottom: 32px;
-  text-align: center;
   font-style: italic;
   display: block; }
   @media only screen and (max-width: 767px) {
-    time {
-      margin-bottom: 25px; } }
+    time { } }
   @media only screen and (max-width: 374px) {
-    time {
-      margin-bottom: 25px; } }
-      
+    time { } }
+    
+.post-meta  {
+	margin-bottom: 1.5em;
+}
+
+article.post header h2 {
+	margin-bottom: 0;
+}
+
+article.post .post-meta {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.post-meta,
 body > footer {
 	font-size: 14px;
-	line-height: 0.875;
 }
       
 /*--------------------------------------------------------------
@@ -800,20 +801,28 @@ Links
 --------------------------------------------------------------*/
 
 a {
-  color: #222222; }
+  color: #4078c0; }
   a:visited {
-    color: #222222; }
+    color: #4078c0; }
   a:hover, a:focus, a:active {
-    color: #222222; }
+    color: #4078c0; }
     
 a.more-link {
   display: inline-block; }
 
 h1 a,
 h1 a:visited,
-h1 a:hover {
+h2 a,
+h2 a:visited,
+h3 a,
+h3 a:visited {
   color: #222222;
-  text-decoration: none !important; }
+  text-decoration: none; }
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover {
+  text-decoration: underline; }
 
 /*--------------------------------------------------------------
 Clearings
@@ -872,6 +881,11 @@ body > footer {
     .center {
       padding: 0 12.5px;
       margin: 0 auto 25px auto; } }
+
+.posts {
+	margin:0;
+	padding:0; 
+	list-style: none; }
 
 /*--------------------------------------------------------------
 Animations
