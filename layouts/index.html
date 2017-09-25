@@ -1,6 +1,8 @@
 {{ define "main" }}
 
-	{{ range (.Paginate (.Data.Pages.GroupByDate "Monday, 2 January 2006")).PageGroups }}
+	{{ $paginator := .Paginate (where .Data.Pages "Section" "in" (slice "posts" "links" "minis")) }}
+
+	{{ range $paginator.Pages.GroupByDate "Monday, 2 January 2006" }}
 		{{ $page := index .Pages 0 }}{{/* Each group has at least 1 page */}}
 		<h2 class="pv3 mb4 gray ph4 fw1 f5 ttu lh-title bt bb b--light-gray">{{ .Key }}</h2>
 		<ul class="ma0 pa0 list">
@@ -10,6 +12,10 @@
 		</ul>
 	{{ end }}
 
-	{{ template "_internal/pagination.html" . }}
+{{ end }}
+
+{{ define "pagination" }}
+
+	{{ partial "pagination.html" . }}
 
 {{ end }}

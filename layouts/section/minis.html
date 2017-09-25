@@ -6,7 +6,11 @@
 		{{ .Render "li" }}
 	{{ end }}
 	</ul>
+	
+{{ end }}
 
-	{{ template "_internal/pagination.html" . }}
+{{ define "pagination" }}
+
+	{{ partial "pagination.html" . }}
 
 {{ end }}

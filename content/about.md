@@ -2,6 +2,8 @@
 title: About
 description: 
 type: page
+menu:
+  main: {}
 ---
 Soypunk.me is written and produced by Shawn Medero from Claremont, California.
 

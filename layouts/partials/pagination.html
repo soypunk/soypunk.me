@@ -1,0 +1,28 @@
+{{ $pag := $.Paginator }}
+    {{ if gt $pag.TotalPages 1 }}
+    <div class="center tc">
+		<ul class="list pl0 mv3 lh-copy">
+			{{ with $pag.First }}
+			<li class="dib f6">
+				<a class="pa2 link bg-white ba b--moon-gray link" href="{{ .URL }}" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+			</li>
+			{{ end }}
+			<li class="dib f6 {{ if not $pag.HasPrev }}disabled{{ end }}">
+				<a class="pa2 link bg-white ba b--moon-gray" href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+			</li>
+			{{ range $pag.Pagers }}
+			<li class="dib f6 {{ if eq . $pag }}active{{ end }}">
+				<a class="pa2 link bg-white ba b--moon-gray" href="{{ .URL }}">{{ .PageNumber }}</a>
+			</li>
+			{{ end }}
+			<li class="dib f6 {{ if not $pag.HasNext }}disabled{{ end }}">
+				<a class="pa2 link bg-white ba b--moon-gray" href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+			</li>
+			{{ with $pag.Last }}
+			<li class="dib f6">
+				<a class="pa2 link bg-white ba b--moon-gray" href="{{ .URL }}" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+			</li>
+			{{ end }}
+		</ul>
+    </div>
+    {{ end }}
