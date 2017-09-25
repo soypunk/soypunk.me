@@ -4,9 +4,9 @@ date: 2017-02-22 21:02:00 -0800
 draft: false
 link: https://modelviewculture.com/news/sxsw-summit-illustrates-systemic-problems-in-how-we-address-online-harassment
 tags:
-	- online harassment
+ - online harassment
 topics:
-    - technology
+ - technology
 ---
 
 At this point you've probably read [Susan Fowler's "very strange year" account covering her year of working at Uber as a female engineer][2]. The comments on her blog post feature, unsurprisingly, examples of misogyny and online hassment in our culture. 
