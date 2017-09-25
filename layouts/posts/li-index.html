@@ -1,5 +1,5 @@
     <li class="item post">    
-		<h2 class="item-title post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h2>
+		<h1 class="item-title post-title"><a href="{{ .Permalink }}">{{ .Title }} {{ if .GetParam "draft"}}DRAFT{{end}}</a></h1>
 		<div class="item-meta post-meta"><time>{{ .Date.Format "January 2, 2006" }}</time></div>
 		<section class="item-body post-body">
 			{{ .Content }}

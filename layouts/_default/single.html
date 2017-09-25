@@ -1,14 +1,9 @@
-{{ partial "header.html" . }}
-<body lang="en" itemscope itemtype="http://schema.org/Article">
-{{ partial "subheader.html" . }}
-{{ $baseurl := .Site.BaseURL }}
+{{ define "body_schmema" }} itemscope itemtype="http://schema.org/Article" {{ end }}
 
-<section id="main" role="main">
-	<h1 itemprop="name" id="title">{{ .Title }}</h1>
-	<article itemprop="articleBody" id="content">
+{{ define "main" }}	
+<article class="pv0 ph4 mb5">
+	<section itemprop="articleBody" class="pb3 mid-gray measure-wide-ns nested-copy-line-height nested-blockquote nested-img nested-links">
 		{{ .Content }}
-	</article>
-</section>
-
-{{ partial "footer.html" . }}
-</body>
+	</section>		
+</article>	
+{{ end }}

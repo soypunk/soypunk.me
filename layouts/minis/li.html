@@ -1,0 +1,11 @@
+<li class="relative">
+	<article class="pv3 ph4 mb5 f6 f5-ns">
+		<i class="absolute left--1 bg-white br-100 pa2 gray fa fa-fw fa-twitter" aria-hidden="true"></i>	
+		<div class="bg-white ph2 ph3-ns br3 ba b--near-white shadow-3">
+			<section class="measure-wide-ns mid-gray nested-copy-line-height nested-img nested-links">					
+				{{ .Content }}
+			</section>
+			<time class="db tr pv1 lh-copy fw2 f7 f6-ns ttu tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" pubdate><a href="{{ .Permalink }}" class="link gray underline-hover hover-dark-blue">{{ .Date.Format "January 2, 2006" }}</a></time>
+		</div>
+	</article>
+</li>

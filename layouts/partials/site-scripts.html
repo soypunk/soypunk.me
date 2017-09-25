@@ -1,0 +1,49 @@
+<script src='{{ "js/classie.js" | absURL }}'></script>
+<script>
+function init() {
+	/*
+	tiny bit of javascript for dealing with the fixed sidebar menu with
+	the responsive layout breakpoints.
+	*/
+
+	if (matchMedia) {
+		const mq = window.matchMedia("(min-width: 30em)");
+		mq.addListener(WidthChange);
+		WidthChange(mq);
+	}
+
+	window.addEventListener('scroll', function _scrollCallback(e) {
+		const mq = window.matchMedia("(min-width: 30em)");	
+		if (mq.matches) {
+			var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+				shrinkOn = 145,
+				header = document.querySelector("#sidebar-inner");
+			if (distanceY > shrinkOn) {
+				classie.add(header,"fixed");
+				classie.add(header,"top-2");
+			} else {
+				if (classie.has(header,"fixed")) {
+					classie.remove(header,"fixed");
+					classie.remove(header,"top-2");
+				}
+			}
+		} else {
+			header = document.querySelector("#sidebar-inner");
+			classie.remove(header,"fixed");	
+			classie.remove(header,"top-2");	
+		}
+	});
+	
+	// media query change
+	function WidthChange(mq) {		
+		if (mq.matches) {
+			// ?
+		} else {
+			header = document.querySelector("#sidebar-inner");
+			classie.remove(header,"fixed");	
+			classie.remove(header,"top-2");
+		}
+	}	
+}
+window.onload = init();
+</script>

@@ -1,0 +1,30 @@
+<div class="relative pt3 ph4">
+{{ if .IsPage }}
+	{{ if eq .Section "links"}}
+	<i class="absolute top-1 left--1 mt1 bg-white br-100 pa2 gray fa fa-fw fa-globe" aria-hidden="true"></i>
+	<h1 class="f4 fw5 mb0 lh-solid mid-gray"><a href="{{ .Params.Link }}">{{ .Title | title }}</a></h1>
+	{{ else }}
+		{{ if eq .Section "posts"}}
+		<i class="absolute top-2 mt3 left--1 bg-white br-100 pa2 gray fa fa-fw fa-pencil" aria-hidden="true"></i>
+		{{ end }}
+		{{ if eq .Section "minis"}}
+		<i class="absolute top-0 mt2 left--1 bg-white br-100 pa2 gray fa fa-fw fa-twitter" aria-hidden="true"></i>
+		{{ end }}
+	{{ with .Title }}<h1 class="f1 fw3 mb0 lh-solid mid-gray">{{ . | title }}</h1>{{ end }}	
+	{{ end }}
+{{ else }}
+	{{ with .Title }}<h1 class="f3 fw4 mb0 lh-solid mid-gray">{{ . | title }}</h1>{{ end }}	
+{{ end }}
+	{{ if .IsPage }}
+	{{ if in (slice "posts" "links" "minis") .Section}}
+	{{ with .Date }}<time class="mv0 lh-copy fw2 gray f7 f6-ns ttu tracked" datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}" pubdate>{{ .Format "January 2, 2006" }}</time>{{ end }}
+	{{ end }}
+	{{ end }}
+{{ if .IsPage }}
+	{{ if ne .Section "links"}}
+	{{ with .Description }}<p class="i pt2 pb0 mb0 measure-wide-ns lh-copy mid-gray">{{ . }}</p>{{ end }}
+	{{ end }}
+{{ else }}	
+	{{ with .Description }}<p class="pb3 lh-copy fw2 f6 mid-gray">{{ . }}</p>{{ end }}
+{{ end }}
+</div>

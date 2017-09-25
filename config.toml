@@ -1,11 +1,23 @@
 languageCode = "en-us"
-title = "soypunk"
+title = "Shawn Medero"
 baseurl = "https://soypunk.me/"
 canonifyurls = false
 PluralizeListTitles = false
+googleAnalytics = ""
+enableRobotsTXT = true
+DefaultContentLanguage = "en"
+metaDataFormat = "yaml"
+paginate = 15
+
+[sitemap]
+	changefreq = "monthly"
+	priority = 0.5
+	filename = "sitemap.xml"
 
 [permalinks]
-  post = "/:year/:month/:title/"
+	posts = "/posts/:year/:month/:day/:slug"
+	links = "/links/:year/:month/:day/:slug"
+	minis = "/tweets/:year/:month/:day/:slug"
 
 [author]
     name = "Shawn Medero"
@@ -21,4 +33,7 @@ PluralizeListTitles = false
 [params]
 	blogSubtitle = ""
 	description = ""
-	author = "Shawn Medero"
+	owner = "Shawn Medero"
+	twitter = "https://twitter.com/soypunk"
+	mainSections = "stories, recaps, players, links"
+	env	= "PRODUCTION"	

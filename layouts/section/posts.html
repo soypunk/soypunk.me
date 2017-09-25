@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+	{{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
+	<ul class="ma0 pa0 list">
+	{{ range  $section.Pages }}		
+		{{ .Render "li" }}
+	{{ end }}
+	</ul>
+
+	{{ template "_internal/pagination.html" . }}
+
+{{ end }}

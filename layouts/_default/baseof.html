@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ with $.Site.LanguageCode }}{{ . }}{{ else }}en-us{{ end }}">
+	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>    	
+		{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+		<meta name="robots" content="index, follow">
+		{{ else }}
+		<meta name="robots" content="noindex, nofollow">
+		{{ end }}
+		<link href='{{ "css/main.css" | absURL }}' rel='stylesheet' type="text/css">
+		{{ if .RSSLink }}
+		<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
+		<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
+		{{ end }}		
+		{{- template "_internal/opengraph.html" . -}}
+		{{- template "_internal/google_news.html" . -}}
+		{{- template "_internal/schema.html" . -}}
+		{{- template "_internal/twitter_cards.html" . -}}
+		{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+		{{ template "_internal/google_analytics_async.html" . }}
+		{{ end }}
+		<script src="//use.fontawesome.com/3acb57b341.js"></script>
+	</head>
+	<body class="ma0 pa0 w-100 h-100 flex flex-column bg-light-gray navy sans-serif f5" {{ block "page_title" . }}{{ end }}>
+		<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+		{{ block "header" . }}{{ partial "site-header.html" . }}{{ end }}
+		<div id="page" class="cf mw8 center flex-ns flex-auto-ns w-100 mv3 ph3">
+			<div class="relative flex-ns flex-auto-ns">
+				<main id="main" role="main" class="w-100">
+					<div class="bg-white br2">
+						{{ block "page_title" . }}{{ partial "page-title.html" . }}{{ end }}
+						{{ block "main" . }}{{ end }}
+					</div>
+				</main>
+			</div>
+			<aside id="sidebar" class="flex-ns flex-auto-ns w-100 w-third-ns w-25-l pl2-ns bt bw1 b--light-gray bw0-ns bn-ns f5 f6-ns">
+				<div id="sidebar-inner" class="pl2-ns pl4-l">	
+					{{ block "sidebar" . }}{{ partial "site-sidebar.html" . }}{{ end }}							
+				</div>
+			</aside>		
+		</div>
+		{{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}		
+		{{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}		
+	</body>
+</head>
+    	
