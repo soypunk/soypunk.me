@@ -17,7 +17,7 @@ paginate = 15
 [permalinks]
 	posts = "/posts/:year/:month/:day/:slug"
 	links = "/links/:year/:month/:day/:slug"
-	minis = "/tweets/:year/:month/:day/:slug"
+	minis = "/tweets/:year/:month/:day/:filename"
 
 [author]
     name = "Shawn Medero"
