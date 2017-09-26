@@ -36,4 +36,6 @@ paginate = 15
 	owner = "Shawn Medero"
 	twitter = "https://twitter.com/soypunk"
 	mainSections = "stories, recaps, players, links"
-	env	= "PRODUCTION"	
+	env	= "PRODUCTION"
+#	env	= "DEV"
+	
