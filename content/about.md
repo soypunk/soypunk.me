@@ -13,7 +13,7 @@ It contains a mixtures of full-length [posts][1], [linked items from the web][2]
 
 You can {{< feed-link text="subscribe to the RSS feed" >}} if you want to keep track of all updates.
 
-I do my best to adhere to the ["IndieWeb"][4] principles and try to be a good web-citizen with clean, unbroken, and thoughtful URLs. Let me know if you find any issues.
+I do my best to adhere to the ["IndieWeb"][4] principles ([such as POSSE][6]) and try to be a good web-citizen with clean, unbroken, and thoughtful URLs. Let me know if you find any issues.
 
 Finally, older content may not always reflect current views. If you don't understand something I've said, please [reach out and ask me about it][5]. I'm generally friendly and even though I find the Internet a less friendly place then when I joined it back in early 1990s.
 
@@ -24,3 +24,4 @@ Finally, older content may not always reflect current views. If you don't unders
 [3]: /minis/
 [4]: https://indieweb.org
 [5]: /contact/
+[6]: /posts/2017/09/25/what-the-hell-is-a-posse/
