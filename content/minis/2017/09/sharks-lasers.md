@@ -2,7 +2,7 @@
 title: ""
 description: ""
 draft: false
-date: "2017-09-27T22:10:36-07:00"
+date: "2017-09-28T22:10:36-07:00"
 topics:
 - technology 
 ---
