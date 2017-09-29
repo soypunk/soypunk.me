@@ -4,6 +4,7 @@ description:
 type: page
 menu:
   main: {}
+hide_feed: true
 ---
 Soypunk.me is written and produced by Shawn Medero from Claremont, California.
 
@@ -19,9 +20,12 @@ Finally, older content may not always reflect current views. If you don't unders
 
 {{< figure class="mh0 pa1 tc f6 fw1 sans-serif mid-gray w-100 ba bw1 b--light-gray" src="/images/prepare-yourself.gif" title="How the author feels he needs to dress to survive the Internet these days" >}}
 
+(Also, if you like hockey gear then you might want to read my [Tampa Bay Lightning Blog][7])
+
 [1]: /posts/
 [2]: /links/
 [3]: /minis/
 [4]: https://indieweb.org
 [5]: /contact/
 [6]: /posts/2017/09/25/what-the-hell-is-a-posse/
+[7]: https://bolt.black
