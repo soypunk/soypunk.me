@@ -1,8 +1,8 @@
 ---
-title: “”
-description: “”
+title: ""
+description: ""
 draft: false
-date: “2017-10-06T09:32:36-07:00”
+date: "2017-10-06T09:32:36-07:00"
 tags:
 - Mac OS X
 topics: 
