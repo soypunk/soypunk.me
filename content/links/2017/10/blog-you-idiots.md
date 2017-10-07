@@ -1,6 +1,6 @@
 ---
 title: "Blog, You Idiots"
-date: "2017-10-07T09:41:00-0800"
+date: "2017-10-07T09:49:36-07:00"
 link: "https://www.thehairpin.com/2016/08/blog-you-idiots/"
 draft: false
 tags:
