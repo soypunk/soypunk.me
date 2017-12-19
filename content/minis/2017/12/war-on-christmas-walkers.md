@@ -1,7 +1,7 @@
 ----
 title: ""
 description: ""
-date: "2017-12-19T09:58:20-07:00”""
+date: "2017-12-19T09:58:20-07:00"
 draft: false
 tags:
 - policy
