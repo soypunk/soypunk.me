@@ -8,6 +8,7 @@ enableRobotsTXT = true
 DefaultContentLanguage = "en"
 metaDataFormat = "yaml"
 paginate = 15
+staticDir = ["static", "media"]
 
 [sitemap]
 	changefreq = "monthly"
