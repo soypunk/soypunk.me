@@ -1,5 +1,5 @@
 ---
-title: "Bike friendly Ottawa"
+title: ""
 description: ""
 date: "2017-12-23T23:16:30-07:00"
 draft: false
