@@ -1,5 +1,5 @@
 ---
-title: "RIP Dolores O'Riordan"
+title: ""
 description: ""
 date: "2018-01-15T09:45:33-07:00"
 draft: false

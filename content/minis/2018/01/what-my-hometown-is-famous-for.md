@@ -1,5 +1,5 @@
 ---
-title: "what-my-hometown-is-famous-for"
+title: ""
 description: ""
 date: "2018-01-14T15:51:31-07:00"
 draft: false
