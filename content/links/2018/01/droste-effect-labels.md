@@ -1,6 +1,6 @@
 ---
 title: "Feliks Konczakowski’s animated Droste-effect labels"
-date: "2018-01-18T11:27:00-0800"
+date: "2018-01-18T11:27:00-08:00"
 link: "http://beachpackagingdesign.com/boxvox/feliks-konczakowskis-animated-droste-effect-labels"
 draft: false
 topics:
