@@ -8,7 +8,7 @@ tags:
 - Memes
 topics:
 - Pop Culture
-
+---
 Randall Colburn writing for The A.V. Club:
 
 > "We didn’t used to watch everything on computer screens, but that started changing in 2003 with _"End Of The World,"_ a 90-second cartoon about nuclear annihilation that's considered by many to be the first viral video."
