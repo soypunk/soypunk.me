@@ -9,5 +9,4 @@ tags:
 topics:
 - Photos
 ---
-
 Upside down rainbow is 2018 af. {{<figure src="/minis/2018/01/upside-down-rainbow.jpg">}}
