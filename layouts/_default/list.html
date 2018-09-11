@@ -8,10 +8,10 @@
         <section class="measure measure-wide-l nested-copy-line-height nested-img nested-figure nested-embeds nested-hr nested-code nested-list nested-blockquote nested-dt nested-table nested-link nested-form">
                 {{- .Content -}}
         </section>
-    </section>
     <ul class="ma0 pa0 list">
     {{ range .Pages.ByDate.Reverse }}
         {{ .Render "li" }}
     {{ end }}
     </ul>
+    </section>    
 {{ end }}
