@@ -19,8 +19,8 @@ staticDir = ["static", "media"]
 
 [permalinks]
 	pages = "/:slug"
-	posts = "/posts/:year/:month/:day/:slug"
-	archives = "/:slug/"	
+	posts = "/:year/:month/:day/:slug"
+	archives = "/:slug/"
 
 [author]
 	name = "Shawn Medero"
@@ -51,11 +51,11 @@ staticDir = ["static", "media"]
 	identifier = "about"
 	url = "/about/"
 
-[[menu.main]]
-	name = "Archives"
-	weight = 2
-	identifier = "blog"
-	url = "/posts/"
+#[[menu.main]]
+#	name = "Archives"
+#	weight = 2
+#	identifier = "archives"
+#	url = "/posts/"
 
 # [[menu.main]]
 #	name = "Photos"
