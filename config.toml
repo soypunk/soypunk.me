@@ -3,8 +3,8 @@ defaultContentLanguage = "en"
 metaDataFormat = "yaml"
 baseurl = "https://soypunk.me/"
 title = "soypunk"
-canonifyurls = false
-PluralizeListTitles = false
+# canonifyurls = false
+# PluralizeListTitles = false
 googleAnalytics = "UA-37885618-1"
 enableRobotsTXT = true
 paginate = 15
@@ -26,10 +26,10 @@ staticDir = ["static", "media"]
 	name = "Shawn Medero"
 	handle = "soypunk"
 	aboutPage = "/about"
-	location = "Claremont, CA"    
+	location = "Claremont, CA"
 
-[indexes]
-    tag = "tags"
+# [indexes]
+#    tag = "tags"
 
 [taxonomies]
 	tag = "tags"
