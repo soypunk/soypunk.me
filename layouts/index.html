@@ -14,7 +14,7 @@
 				<a href="{{ dateFormat "/2006/01/02/" $page.Date }}" rel="archives" class="link black-50 hover-blue underline-hover">
 					{{ .Key }}
 				</a>
-			</h2>cZ	
+			</h2>
 			<ul class="ma0 pa0 list">
 			{{ range .Pages.ByDate.Reverse }}
 				{{ .Render "li" }}

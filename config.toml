@@ -9,7 +9,7 @@ googleAnalytics = "UA-37885618-1"
 enableRobotsTXT = true
 paginate = 15
 staticDir = ["static", "media"]
-sectionPagesMenu = "main"
+#sectionPagesMenu = "main"
 
 
 [sitemap]
@@ -57,8 +57,8 @@ sectionPagesMenu = "main"
 	identifier = "blog"
 	url = "/posts/"
 
-[[menu.main]]
-	name = "Photos"
-	weight = 3
-	identifier = "photos"
-	url = "/photos/"
+# [[menu.main]]
+#	name = "Photos"
+#	weight = 3
+#	identifier = "photos"
+#	url = "/photos/"
