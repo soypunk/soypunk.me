@@ -1,9 +1,14 @@
-{{ define "main" }}
+ {{ define "main" }}
     <section class="ph3 ph4-ns">
         <header>
-                <h2 class="mt2 f4 ttu tracked lh-title lh-solid-ns fw3 black-50 helvetica">
-                        {{- .Title -}}
-                </h2>
+            <h2 class="mt2 f4 ttu tracked ph3 ph4-ns lh-title lh-solid-ns fw3 black-50 helvetica">
+            {{ if eq .Title "Archives" }}
+            {{ .Title }}
+            {{ else }}            
+            {{ $date_string := replace .Title "/" "-" }}
+            {{ dateFormat "Monday,<br class='db dn-ns'> 2 January 2006" $date_string | safeHTML }}
+            {{ end }}
+            </h2>
         </header>
         <section class="measure nested-copy-line-height nested-img nested-figure nested-embeds nested-hr nested-code nested-list nested-blockquote nested-dt nested-table nested-link nested-form">
                 {{- .Content -}}

@@ -1,9 +1,18 @@
 {{ define "body_schmema" }} itemscope itemtype="http://schema.org/Article" {{ end }}
 
 {{ define "main" }}	
-<article class="pv0 ph4 mb5">
-	<section itemprop="articleBody" class="pb3 mid-gray measure-wide-ns nested-copy-line-height nested-blockquote nested-img nested-links">
-		{{ .Content }}
-	</section>		
-</article>	
+<article class="ph3 ph4-ns">
+        {{ if .Title }}
+        <header>
+                <h2 class="mt2 f4 ttu tracked lh-title lh-solid-ns fw3 black-50 helvetica">
+                        {{- .Title -}}
+                </h2>
+        </header>
+        {{ end }}
+        
+        <section class="measure nested-copy-line-height nested-img nested-figure nested-embeds nested-hr nested-code nested-list nested-blockquote nested-dt nested-table nested-link nested-form">
+                {{- .Content -}}
+        </section>
+
+</article>
 {{ end }}
