@@ -9,7 +9,7 @@
 	{{ $paginator := .Paginate (where .Data.Pages "Section" "in" (slice "posts" "photos")) }}
 	{{ range $paginator.Pages.GroupByDate "Monday, 2 January 2006" }}
 		{{ $page := index .Pages 0 }}{{/* Each group has at least 1 page */}}
-		<section class="ph3 ph4-ns">
+		<section class="pb3 ph3 ph4-ns">
 			<h2 class="mt2 f4 ttu tracked lh-title lh-solid-ns fw3 black-50 helvetica">
 				<a href="{{ dateFormat "/2006/01/02/" $page.Date }}" rel="archives" class="link black-50 hover-blue underline-hover">
 					{{ .Key }}
