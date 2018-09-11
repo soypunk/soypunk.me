@@ -14,7 +14,7 @@ archives:
  - "2018/09/11"
 ---
 
-[Glitch][] is a fascinating project for a variety reasons, sorta of a Geocities on steroids [so this recent effort they've created to bring back old sites from the dead][1] is "on brand" as the kids say:
+[Glitch][] is a fascinating project for a variety reasons, sort of a Geocities on steroids [so this recent effort they've created to bring back old sites from the dead][1] is "on brand" as the kids say:
 
 > We’ve created the Wayback Importer. An easy way for you to grab your first website from archive.org and bring it back to life on Glitch.
 > 
