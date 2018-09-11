@@ -45,6 +45,7 @@ staticDir = ["static", "media"]
 	description = ""
 	owner = "Shawn Medero"
 	twitter = "https://twitter.com/soypunk"
+	microdotblog = "https://micro.blog/soypunk"
 	mainSections = "stories, recaps, players, links"
 	env	= "PRODUCTION"
 #	env	= "DEV"
