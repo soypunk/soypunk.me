@@ -12,4 +12,4 @@ archives:
  - "2018/09/11"
 ---
 
-{{< figure src="http://photos.soypunk.me/Archive/2018/9/IMG_0166.JPG" title="A purrfect pour-over coffee maker I found in Seattle, Washington recently" >}}
+{{< figure class="mh0" src="http://photos.soypunk.me/Archive/2018/9/IMG_0166.JPG" title="A purrfect pour-over coffee maker I found in Seattle, Washington recently" >}}
