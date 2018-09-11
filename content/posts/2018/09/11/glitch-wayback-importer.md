@@ -22,7 +22,7 @@ archives:
 > 
 > And we’re showcasing peoples’ first websites in a collection, alongside some classic layouts from sites like LiveJournal, Neopets, Movable Type and many other old-school ways of publishing a web page.
 
-I miss still [k10k.net][k10k] which is sadly not in the Wayback Machine's archive.
+I still miss [k10k.net][k10k] which is sadly not in the Wayback Machine's archive.
 
 [1]: https://medium.com/glitch/help-us-bring-back-the-creative-web-6ee232678417
 [k10k]: https://www.webdesignmuseum.org/gallery/kaliber10000-2003
