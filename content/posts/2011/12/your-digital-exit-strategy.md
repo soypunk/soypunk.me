@@ -3,8 +3,12 @@ title: "Your Digital Exit Strategy"
 date: "2011-12-03T21:00:36-07:00"
 description: 'Do you have a means to take a snapshot of your online presence that will last the test of time, devices, platforms, and networks?'
 draft: false
-topics: 
+tags: 
 - technology
+2011:
+- "12"
+archives:
+- "2011/12/03"
 ---
 As we approach the new year, I'm thinking about resolutions for 2012. One of
 my primary tech-themed resolutions is getting a better handle on my "cloud"

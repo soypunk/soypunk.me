@@ -3,7 +3,11 @@ title: "Why blog again?"
 date: 2017-09-25T15:39:00-07:00
 draft: false
 topics:
- - updates
+ - colophon
+2017:
+ - "09"
+archives:
+ - "2017/09/25"
 ---
 
 I was also prompted to rethink my Twitter strategy while listening to [Manton Reece's Timetable podcast][2]:

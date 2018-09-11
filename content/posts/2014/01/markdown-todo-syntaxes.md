@@ -5,8 +5,13 @@ draft: false
 date: "2014-01-27T21:12:36-07:00"
 tags:
 - protocols and formats
-topics: 
+tags: 
 - technology
+- markdown
+2014:
+- "01"
+archives:
+- "2014/01/27"
 ---
 ## Summary of Markdown Lists
 

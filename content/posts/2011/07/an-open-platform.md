@@ -3,8 +3,12 @@ title: 'An "Open Platform"'
 date: "2011-07-12T21:00:36-07:00"
 description: 'What is the barrier to entry for an "open platform"?'
 draft: false
-topics: 
+tags: 
 - technology
+2011:
+- "07"
+archives:
+- "2011/07/12"
 ---
 Lately I've grown tired of reading about how a platform is closed or open
 based on a single facet of its operation. I expect lazy coverage from pundits

@@ -3,9 +3,13 @@ title: "Rainy Day Jazz"
 date: 2017-02-16 10:46:00 -0800
 draft: false
 tags:
-    - playlists
-topics:
     - music
+    - playlists
+2017:
+- "02"
+archives:
+- "2017/02/16"
+
 ---
 
 Part of [documenting my Reading List library][2] will include going through 100s of items that I've been queuing up over the last several years. Kinda like wading into an old person's house and seeing years worth of newspapers stacked up everywhere -- something I'm familiar with since that was the scene I found after I visited my grandfather at his house some time ago. 

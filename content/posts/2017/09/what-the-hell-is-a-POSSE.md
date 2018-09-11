@@ -4,8 +4,10 @@ date: 2017-09-25T22:53:00-07:00
 draft: false
 tags:
  - IndieWeb
-topics:
- - updates
+2017:
+ - "09"
+archives:
+ - "2017/09/25"
 ---
 This is a more technical follow-up to an [earlier post today][1], if you aren't really into that you can just tl;dr this.
 

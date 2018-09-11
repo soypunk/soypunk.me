@@ -3,9 +3,13 @@ title: " Questionably Written Technology Stories/Headlines, August 1-15th 2013"
 date: "2013-08-19T15:12:36-07:00"
 description: ""
 draft: false
-topics: 
+tags: 
 - technology
 - journalism
+2013:
+- "08"
+archives:
+- "2013/08/19"
 ---
 Welcome to a pedantic series that questions editorial decision making at various journalism outlets:
 
