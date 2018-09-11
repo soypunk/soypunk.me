@@ -12,7 +12,7 @@ archives:
  - "2018/09/11"
 ---
 
-At the [end of Episode 12 of Michael Coté & Robert Brook's "Cashed Out" podcast][2] there was a lovely song playing. A quick Shazam and I was off to Apple Music where I listened to [Courtney Barnett's album "Tell Me How You Really Feel"][1]. It is an indie rock album but there's a nice bluesy undertone to it and she sings with an Australian accent which for whatever reason always lands nicely in my eardrums. (Hat tip: [@cote][3])
+On [Ep12 of Michael Coté & Robert Brook's "Cashed Out" podcast][2] there was a song playing at the end. A Shazam took me to Apple Music where I discovered [Courtney Barnett's album "Tell Me How You Really Feel"][1], an indie rock album w/ a subtle bluesy undertone. (h/t: [@cote][3])
 
 [1]: https://itunes.apple.com/us/album/tell-me-how-you-really-feel/1341943567
 [2]: https://www.cashedout.coffee/12
