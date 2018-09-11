@@ -44,11 +44,6 @@ sectionPagesMenu = "main"
 	mainSections = "stories, recaps, players, links"
 	env	= "PRODUCTION"
 #	env	= "DEV"
-
-[taxonomies]
-	tag = "tags"
-	2018 = "2018"
-	archive = "archives"
 	
 [[menu.main]]
 	name = "About"
