@@ -7,7 +7,7 @@
         </h3>
     </header>
 {{ end }}
-    <section class="{{ if (not .Title) }}content mv3{{end}} measure nested-copy-line-height nested-img nested-figure nested-embeds nested-hr nested-code nested-list nested-blockquote nested-dt nested-table nested-link nested-form">
+    <section class="{{ if (not .Title) }}content mv3{{end}} measure measure-wide-l nested-copy-line-height nested-img nested-figure nested-embeds nested-hr nested-code nested-list nested-blockquote nested-dt nested-table nested-link nested-form">
 	    {{- .Content -}}
         {{ if (not .Title) }}
         <a href="{{ dateFormat "/2006/01/02/#w15:04" .Date }}" rel="bookmark" class="di f6 link dark-blue bg-animate hover-purple i">⇜</a>
