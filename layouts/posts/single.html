@@ -1,16 +1,10 @@
-{{ define "body_schmema" }} itemscope itemtype="http://schema.org/Article" {{ end }}
-
-{{ define "main" }}
-<article class="pv0 ph4 bb b--light-gray">
-	<section itemprop="articleBody" class="mid-gray measure-wide-ns nested-copy-line-height nested-blockquote nested-img nested-links">
-		{{ .Content }}
-	</section>		
-</article>
-
-<div class="pv3 ph4 f5">
-	<ul class="list pl0 gray">			
-	{{if .PrevInSection}}<li>Previous post: <a class="link blue underline-hover hover-dark-blue" href="{{.PrevInSection.Permalink}}">{{.PrevInSection.Title}}</a></li>{{end}}
-	{{if .NextInSection}}<li>Next post: <a class="link blue underline-hover hover-dark-blue" href="{{.NextInSection.RelPermalink}}">{{.NextInSection.Title}}</a></li>{{end}}
-	</ul>
-</div>
-{{ end }}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Site.BaseURL }}{{ dateFormat "2006/01/02/#w15:04" .Date }}</title>
+    <link rel="canonical" href="{{ .Site.BaseURL }}{{ dateFormat "2006/01/02/#w15:04" .Date }}"/>
+    <meta name="robots" content="noindex">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="refresh" content="0; url={{ .Site.BaseURL }}{{ dateFormat "2006/01/02/#w15:04" .Date }}"/>
+  </head>
+</html>

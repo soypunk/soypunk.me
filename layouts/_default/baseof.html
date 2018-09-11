@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ with $.Site.LanguageCode }}{{ . }}{{ else }}en-us{{ end }}">
 	<head>
     	<meta charset="utf-8">
@@ -10,42 +10,131 @@
 		{{ else }}
 		<meta name="robots" content="noindex, nofollow">
 		{{ end }}
-		<link href='{{ "css/main.css" | absURL }}?v1.0.1' rel='stylesheet' type="text/css">
+		<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+		<style type="text/css">
+		.cina-red {
+			color: #cc3300;
+		}
+		.bg-cina-red {
+			background-color: #cc3300;
+		}
+		.b--cina-red {
+			border-color: #cc3300;
+		}
+		.nested-figure figure {
+			max-width: 100%;
+			height: auto;
+		}
+		.nested-embeds iframe,
+		.nested-embeds embed,
+		.nested-embeds object,
+		.nested-embeds video {
+			max-width: 100%;
+		}
+		.nested-hr hr {
+			border: 1px solid #FFFFFF;
+			margin: 2rem 0;
+		}
+		.nested-code pre,
+		.nested-code code {
+			font-size: .875em;
+			padding: 0.5em;
+			margin: 0.5em 0;
+			background-color: #EEE;
+			display: block;
+			color: #444444;
+		}
+		.nested-list ul {
+			list-style: none;
+			padding-left: 1em;
+		}
+		.nested-list li {
+			margin-top: 0.5rem;
+			margin-bottom: 1rem;
+		}
+		.nested-list ul > li:before {
+			content: "\25AA";
+			display: block;
+			color: #999;
+			height: 0;
+			width: 0;
+			left: -1em;
+			top: 0;
+			position: relative;
+		}
+		.nested-blockquote blockquote {
+			margin-left: 0;
+			padding-left: 0.75em;
+			border-left: 0.25em solid #FFFFFF;
+		}
+		.nested-dt dt {
+			margin: 0.5rem 0;
+		}
+		.nested-table table {
+			border-collapse: collapse;
+		}
+		.nested-table thead {
+			border-bottom: 2px solid #333;
+		}
+		.nested-table th,
+		.nested-table td {
+			padding: 0.67rem 0.5rem;
+			text-align: left;
+		}
+		.nested-links a {
+			text-decoration: underline;
+			transition: color .15s ease-in;
+		}
+		.nested-link a, .link,
+		.nested-link a:link, .link:link,
+		.nested-link a:hover, .link:hover,
+		.nested-link a:active, .link:active {
+			color: #00449e;
+		}
+		.nested-link a:visited {
+			color: #5E2CA5;
+		}
+		.nested-links a:hover,
+		.nested-links a:focus {
+			color: #357EDD;
+			transition: color .15s ease-in;
+		}		
+		</style>
 		{{ if .RSSLink }}
 		<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
 		<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">
 		{{ end }}
+		{{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}		
 		<link href="https://micro.blog/soypunk" rel="me">
 		{{- template "_internal/opengraph.html" . -}}
 		{{- template "_internal/google_news.html" . -}}
 		{{- template "_internal/schema.html" . -}}
 		{{- template "_internal/twitter_cards.html" . -}}
 		{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-		{{ template "_internal/google_analytics_async.html" . }}
+		{{ template "_internal/google_analytics.html" . }}
 		{{ end }}
 		<script src="//use.fontawesome.com/3acb57b341.js"></script>
 	</head>
-	<body class="ma0 pa0 w-100 h-100 flex flex-column bg-light-gray navy sans-serif f5" {{ block "page_title" . }}{{ end }}>
-		<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
-		{{ block "header" . }}{{ partial "site-header.html" . }}{{ end }}
-		<div id="page" class="cf mw8 center flex-ns flex-auto-ns w-100 mv3 ph3">
-			<div class="relative flex-ns flex-auto-ns">
-				<main id="main" role="main" class="w-100">
-					<div class="bg-white br2">
-						{{ block "page_title" . }}{{ partial "page-title.html" . }}{{ end }}
-						{{ block "main" . }}{{ end }}
-					</div>
-					{{ block "pagination" . }}{{ end }}
-				</main>				
-			</div>
-			<aside id="sidebar" class="flex-ns flex-auto-ns w-100 w-third-ns w-25-l pl2-ns bt bw1 b--light-gray bw0-ns bn-ns f5 f6-ns">
-				<div id="sidebar-inner" class="pl2-ns pl4-l">	
-					{{ block "sidebar" . }}{{ partial "site-sidebar.html" . }}{{ end }}							
-				</div>
-			</aside>		
+	<body class="georgia f4 fw5 bg-light-gray dark-gray center pt4 pt6-ns">
+		<a class="clip" href="#main">Skip to content</a>
+		<div class="flex-ns items-start">
+			<header class="w-34-ns">		
+				<h1 class="pa1 bg-white pr4 f3-ns lh-title fw5 tr black-40 ttl i">
+					<a href="/" rel="home" title="Home" class="link black-40 hover-black-80">{{ .Site.Title }}</a>
+				</h1>				
+				<nav class="db tr lh-copy ttu tracked helvetica fw4">
+					{{ range .Site.Menus.main }}
+					<a href="{{ .URL }}" class="db pr4 link cina-red hover-dark-red">{{ .Name }}</a>
+					{{ end }}
+				</nav>
+			</header>
+			<main id="main" role="main" class="w-75-ns f5 f4-ns mt4 mt0-ns nt1-ns">
+				{{ block "main" . }}{{ end }}
+				{{ block "pagination" . }}{{ end }}
+				
+				{{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+			</main>		
 		</div>
-		{{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}		
-		{{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}		
+		{{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
 	</body>
-</head>
-    	
+</html> 	
