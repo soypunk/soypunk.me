@@ -11,7 +11,7 @@ archives:
  - "2018/09/17"
 ---
 
-[The Atlantic] wants you to throw away your children's artwork. In our house there's a spot for the kids to display artwork and they are limited to that spot. The rest gets recycled/pitched weekly. (Hat tip: [@jack][])
+[The Atlantic][url-ref] wants you to throw away your children's artwork. In our house there's a spot for the kids to display artwork and they are limited to that spot. The rest gets recycled/pitched weekly. (Hat tip: [@jack][])
 
 [url-ref]: https://www.theatlantic.com/family/archive/2018/09/throw-your-childrens-art-away/570379/
 [@jack]: https://micro.blog/jack
