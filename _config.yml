@@ -1,0 +1,32 @@
+
+title: "Shawn Medero"
+tagline: ""
+description: "Follow <a href=\"https://micro.blog/soypunk\">@soypunk on Micro.blog</a>."
+credits: "Follow <a href=\"https://micro.blog/soypunk\">@soypunk on Micro.blog</a>."
+baseurl: ""
+url: "https://soypunk.micro.blog"
+markdown: "kramdown"
+username: "soypunk"
+microblog_user: "soypunk"
+permalink: "/:year/:month/:day/:title.html"
+relative_permalinks: false
+author: "Shawn Medero"
+name: "Shawn Medero"
+gravatar_hash: "40906f4f4a4d27bd31941adbc855798b"
+avatar: "https://micro.blog/soypunk/avatar.jpg"
+full_name: "Shawn Medero"
+bio: ""
+twitter_username: ""
+github_username: ""
+instagram_username: ""
+paginate: 20
+paginate_path: "/page/:num/"
+timezone: "US/Pacific-New"
+site_id: "6664"
+gems: ["jekyll-paginate"]
+itunes_description: "Surfing and building out the Web since 1995. I live in Claremont, California."
+itunes_category: "Society & Culture"
+itunes_subcategory: "Personal Journals"
+itunes_author: "Shawn Medero"
+itunes_email: ""
+podcast: false
