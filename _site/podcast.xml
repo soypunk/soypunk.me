@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Shawn Medero</title>
+    <description>Surfing and building out the Web since 1995. I live in Claremont, California.</description>
+    <link>https://soypunk.micro.blog/</link>
+    <pubDate>Fri, 28 Sep 2018 16:59:31 -0700</pubDate>
+    <lastBuildDate>Fri, 28 Sep 2018 16:59:31 -0700</lastBuildDate>
+	<itunes:image href="https://micro.blog/soypunk/podcast.png" />
+	<itunes:category text="Society &amp; Culture">
+		<itunes:category text="Personal Journals"></itunes:category>
+	</itunes:category>
+	<itunes:author>Shawn Medero</itunes:author>
+	<itunes:explicit>no</itunes:explicit>		
+	<itunes:owner>
+		<itunes:name>Shawn Medero</itunes:name>
+		<itunes:email></itunes:email>
+	</itunes:owner>
+	<language>en</language>
+    
+  </channel>
+</rss>
