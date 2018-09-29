@@ -3,9 +3,9 @@
   <channel>
     <title>Shawn Medero</title>
     <description>Surfing and building out the Web since 1995. I live in Claremont, California.</description>
-    <link>https://soypunk.micro.blog/</link>
-    <pubDate>Fri, 28 Sep 2018 16:59:31 -0700</pubDate>
-    <lastBuildDate>Fri, 28 Sep 2018 16:59:31 -0700</lastBuildDate>
+    <link>http://soypunk.me/</link>
+    <pubDate>Sat, 29 Sep 2018 10:48:03 -0700</pubDate>
+    <lastBuildDate>Sat, 29 Sep 2018 10:48:03 -0700</lastBuildDate>
 	<itunes:image href="https://micro.blog/soypunk/podcast.png" />
 	<itunes:category text="Society &amp; Culture">
 		<itunes:category text="Personal Journals"></itunes:category>
@@ -17,6 +17,14 @@
 		<itunes:email></itunes:email>
 	</itunes:owner>
 	<language>en</language>
+    
+		
+    
+		
+    
+		
+    
+		
     
   </channel>
 </rss>
