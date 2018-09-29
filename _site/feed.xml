@@ -3,9 +3,61 @@
   <channel>
     <title>Shawn Medero</title>
     <description>Follow &lt;a href=&quot;https://micro.blog/soypunk&quot;&gt;@soypunk on Micro.blog&lt;/a&gt;.</description>
-    <link>https://soypunk.micro.blog/</link>
-    <pubDate>Fri, 28 Sep 2018 16:59:31 -0700</pubDate>
-    <lastBuildDate>Fri, 28 Sep 2018 16:59:31 -0700</lastBuildDate>
+    <link>http://soypunk.me/</link>
+    <pubDate>Sat, 29 Sep 2018 10:48:03 -0700</pubDate>
+    <lastBuildDate>Sat, 29 Sep 2018 10:48:03 -0700</lastBuildDate>
+    
+      <item>
+      	
+        <description>&lt;p&gt;2018-07-21&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://soypunk.me/uploads/2018/0fc5734441.jpg&quot;&gt;&lt;img src=&quot;http://soypunk.me/uploads/2018/0fc5734441.jpg&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;display: inline-block; max-height: 200px; width: auto; padding: 1px;&quot; class=&quot;sunlit_image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Since July we’ve been fostering a family of five kittens. Today they are off to the pet shelter to start the process of finding their “forever homes.” It was quite a wild ride to watch them grow up together and I’ll miss their playful exuberance when I’m working at home.&lt;/p&gt;
+
+&lt;p&gt;2018-09-27&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://soypunk.me/uploads/2018/3e452ace30.jpg&quot;&gt;&lt;img src=&quot;http://soypunk.me/uploads/2018/3e452ace30.jpg&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;display: inline-block; max-height: 200px; width: auto; padding: 1px;&quot; class=&quot;sunlit_image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2018-09-29&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://soypunk.me/uploads/2018/b180446877.jpg&quot;&gt;&lt;img src=&quot;http://soypunk.me/uploads/2018/b180446877.jpg&quot; width=&quot;600&quot; height=&quot;449&quot; style=&quot;display: inline-block; max-height: 200px; width: auto; padding: 1px;&quot; class=&quot;sunlit_image&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://soypunk.me/uploads/2018/f7138be157.jpg&quot;&gt;&lt;img src=&quot;http://soypunk.me/uploads/2018/f7138be157.jpg&quot; width=&quot;450&quot; height=&quot;600&quot; style=&quot;display: inline-block; max-height: 200px; width: auto; padding: 1px;&quot; class=&quot;sunlit_image&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://soypunk.me/uploads/2018/a3de15a452.jpg&quot;&gt;&lt;img src=&quot;http://soypunk.me/uploads/2018/a3de15a452.jpg&quot; width=&quot;600&quot; height=&quot;449&quot; style=&quot;display: inline-block; max-height: 200px; width: auto; padding: 1px;&quot; class=&quot;sunlit_image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 29 Sep 2018 10:47:55 -0700</pubDate>
+        <link>http://soypunk.me/2018/09/29/since-july-weve.html</link>
+        <guid isPermaLink="true">http://soypunk.micro.blog/2018/09/29/since-july-weve.html</guid>
+      </item>
+    
+      <item>
+      	
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.dailydictionary.com&quot;&gt;Daily Dictionary&lt;/a&gt; is an iOS “word a day calendar” app by Benjamin Mayo that really nails the iOS 11/12 design aesthetic. See also &lt;a href=&quot;http://benjaminmayo.co.uk/marzipan&quot;&gt;Ben’s (unhappy) thoughts on Marzipan apps in macOS Mojave&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Sep 2018 22:20:44 -0700</pubDate>
+        <link>http://soypunk.me/2018/09/28/daily-dictionary-is.html</link>
+        <guid isPermaLink="true">http://soypunk.micro.blog/2018/09/29/daily-dictionary-is.html</guid>
+      </item>
+    
+      <item>
+      	
+        <description>&lt;p&gt;TIL: &lt;a href=&quot;https://www.sqlite.org/c3ref/open.html&quot;&gt;SQLite has a readonly mode&lt;/a&gt;. Opening your database with this immutable data option means you avoid SQLite’s concurrency issues enabling faster reads. I think SQLite is vastly underrated.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Sep 2018 22:13:51 -0700</pubDate>
+        <link>http://soypunk.me/2018/09/28/til-sqlite-has.html</link>
+        <guid isPermaLink="true">http://soypunk.micro.blog/2018/09/29/til-sqlite-has.html</guid>
+      </item>
+    
+      <item>
+      	
+        <description>&lt;p&gt;&lt;a href=&quot;http://soypunk.me/uploads/2018/6cc2538be2.jpg&quot;&gt;&lt;img src=&quot;http://soypunk.me/uploads/2018/6cc2538be2.jpg&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;height: auto;&quot; class=&quot;sunlit_image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Testing out micro.blog integration with the obligatory cat photo.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 28 Sep 2018 17:18:48 -0700</pubDate>
+        <link>http://soypunk.me/2018/09/28/testing-out-microblog.html</link>
+        <guid isPermaLink="true">http://soypunk.micro.blog/2018/09/29/testing-out-microblog.html</guid>
+      </item>
     
   </channel>
 </rss>
