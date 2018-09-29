@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #fff;
+    color: #333;
+}
+.site-header {
+    background-color: #eee;
+    border-top: none;
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+    z-index: 2;
+}
+.page-content {
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+    z-index: 1;
+}
+.site-footer {
+    padding-bottom: 0;
+}
+.site-title,
+.page-link {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+	letter-spacing:  .1em;
+    text-transform: uppercase;
+}
+.dt-published {
+    font-size: 13px;
+    font-weight: 500;
+	letter-spacing:  .1em;
+    text-transform: uppercase;
+    color: #aaa;  
+}
+.copyright {
+     font-size: 15px;
+     color: #aaa;
+}
