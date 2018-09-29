@@ -2,9 +2,41 @@
 	"version": "https://jsonfeed.org/version/1",
 	"title": "Shawn Medero",
 	"icon": "https://micro.blog/soypunk/avatar.jpg",
-	"home_page_url": "https://soypunk.micro.blog/",
-	"feed_url": "https://soypunk.micro.blog/archive/index.json",
+	"home_page_url": "http://soypunk.me/",
+	"feed_url": "http://soypunk.me/archive/index.json",
 	"items": [
+		
+		{
+			"id": "http://soypunk.micro.blog/2018/09/29/since-july-weve.html",
+	      	
+			"content_text": "2018-07-21 Since July we’ve been fostering a family of five...",
+			"date_published": "2018-09-29T10:47:55-07:00",
+			"url": "http://soypunk.me/2018/09/29/since-july-weve.html"
+		},
+		
+		{
+			"id": "http://soypunk.micro.blog/2018/09/29/daily-dictionary-is.html",
+	      	
+			"content_text": "Daily Dictionary is an iOS “word a day calendar” app...",
+			"date_published": "2018-09-28T22:20:44-07:00",
+			"url": "http://soypunk.me/2018/09/28/daily-dictionary-is.html"
+		},
+		
+		{
+			"id": "http://soypunk.micro.blog/2018/09/29/til-sqlite-has.html",
+	      	
+			"content_text": "TIL: SQLite has a readonly mode. Opening your database with...",
+			"date_published": "2018-09-28T22:13:51-07:00",
+			"url": "http://soypunk.me/2018/09/28/til-sqlite-has.html"
+		},
+		
+		{
+			"id": "http://soypunk.micro.blog/2018/09/29/testing-out-microblog.html",
+	      	
+			"content_text": "\n\nTesting out micro.blog integration with the obligatory cat photo.\n\n",
+			"date_published": "2018-09-28T17:18:48-07:00",
+			"url": "http://soypunk.me/2018/09/28/testing-out-microblog.html"
+		}
 		
 	]
 }
