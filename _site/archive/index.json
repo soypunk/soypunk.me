@@ -7,6 +7,22 @@
 	"items": [
 		
 		{
+			"id": "http://soypunk.micro.blog/2018/10/02/ruben-verborgh-a.html",
+	      	
+			"content_text": "Ruben Verborgh, a Solid developer &amp; linked data researcher outlines...",
+			"date_published": "2018-10-02T08:30:02-07:00",
+			"url": "http://soypunk.me/2018/10/02/ruben-verborgh-a.html"
+		},
+		
+		{
+			"id": "http://soypunk.micro.blog/2018/10/02/tim-bernerslee-has.html",
+	      	
+			"content_text": "Tim Berners-Lee has a co-founded a new company to breath...",
+			"date_published": "2018-10-01T22:03:31-07:00",
+			"url": "http://soypunk.me/2018/10/01/tim-bernerslee-has.html"
+		},
+		
+		{
 			"id": "http://soypunk.micro.blog/2018/09/29/since-july-weve.html",
 	      	
 			"content_text": "Since July we’ve been fostering a family of five kittens....",
