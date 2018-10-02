@@ -4,8 +4,42 @@
     <title>Shawn Medero</title>
     <description>Follow &lt;a href=&quot;https://micro.blog/soypunk&quot;&gt;@soypunk on Micro.blog&lt;/a&gt;.</description>
     <link>http://soypunk.me/</link>
-    <pubDate>Mon, 01 Oct 2018 21:40:01 -0700</pubDate>
-    <lastBuildDate>Mon, 01 Oct 2018 21:40:01 -0700</lastBuildDate>
+    <pubDate>Tue, 02 Oct 2018 08:30:10 -0700</pubDate>
+    <lastBuildDate>Tue, 02 Oct 2018 08:30:10 -0700</lastBuildDate>
+    
+      <item>
+      	
+        <description>&lt;p&gt;&lt;a href=&quot;https://ruben.verborgh.org/blog/2017/12/20/paradigm-shifts-for-the-decentralized-web/&quot;&gt;Ruben Verborgh, a Solid developer &amp;amp; linked data researcher outlines a comprehensive view of Solid’s vision&lt;/a&gt;. FWIW, the instructions for &lt;a href=&quot;https://solid.inrupt.com/docs/installing-running-nss&quot;&gt;spinning up your own Solid server&lt;/a&gt; seem straightforward-ish.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Oct 2018 08:30:02 -0700</pubDate>
+        <link>http://soypunk.me/2018/10/02/ruben-verborgh-a.html</link>
+        <guid isPermaLink="true">http://soypunk.micro.blog/2018/10/02/ruben-verborgh-a.html</guid>
+      </item>
+    
+      <item>
+      	
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.fastcompany.com/90243936/exclusive-tim-berners-lee-tells-us-his-radical-new-plan-to-upend-the-world-wide-web&quot;&gt;Tim Berners-Lee has a co-founded a new company&lt;/a&gt; to breath life into the “Semantic Web” once again. Roughly a year ago &lt;a href=&quot;https://lists.w3.org/Archives/Public/public-lod/2017Oct/0003.html&quot;&gt;Sean Palmer did a stream-of-consciousness documentation of what happened to the myriad of technologies the Semantic Web effort spewed out&lt;/a&gt; and concluded:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The main problem seems not to have been the proliferation of the Semantic junk such as RDF/XML and SPARQL, as is sometimes argued (references below), but rather that the Web side did not provide an open and decentralised system in which to host the Semantic side. Ongoing efforts are being made to rectify that, but there are no promising solutions in that domain and so many of the Semantic Web ideas will remain dormant.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And so we come back to Solid, &lt;a href=&quot;https://en.m.wikipedia.org/wiki/Tim_Berners-Lee&quot;&gt;TimBL’s&lt;/a&gt; new creation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Solid (derived from “social linked data”) is a proposed set of conventions and tools for building decentralized social applications based on Linked Data principles. Solid is modular and extensible and it relies as much as possible on existing W3C standards and protocols.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://solid.mit.edu&quot;&gt;Solid&lt;/a&gt; then looks to offer a means of &lt;em&gt;“hosting the Semantic side of things”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I had lunch with TimBL once at a W3C gathering and the man is brilliant and it is easy to get swept up in his optimism. This was years ago though, before Facebook and Google vacuumed up the web into giant silos. Maybe an angry but boyishly optimistic TimBL will finally get the Semantic Web transparently into millions of people’s hands.&lt;/p&gt;
+
+&lt;p&gt;If nothing else all this Solid talk made me fondly remember the active days of the old &lt;a href=&quot;http://blogspace.com/swhack/weblog/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;swhack&lt;/code&gt; IRC channel&lt;/a&gt; and left me shedding a tear for &lt;a href=&quot;http://www.aaronsw.com&quot;&gt;Aaron Swartz&lt;/a&gt; one more time.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Oct 2018 22:03:31 -0700</pubDate>
+        <link>http://soypunk.me/2018/10/01/tim-bernerslee-has.html</link>
+        <guid isPermaLink="true">http://soypunk.micro.blog/2018/10/02/tim-bernerslee-has.html</guid>
+      </item>
     
       <item>
       	
