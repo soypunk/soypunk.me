@@ -7,6 +7,14 @@
 	"items": [
 		
 		{
+			"id": "http://soypunk.micro.blog/2018/10/02/i-appreciate-that.html",
+	      	
+			"content_html": "<p>I appreciate that IRC fell out of fashion but can someone please explain the appeal of <a href=\"https://gitter.im\">glitter.im</a> to me? The UX is terrible: how do I search a thread? where are the archives? how can I tell how active a thread has been today or this week?</p>\n",
+			"date_published": "2018-10-02T08:47:30-07:00",
+			"url": "http://soypunk.me/2018/10/02/i-appreciate-that.html"
+		},
+		
+		{
 			"id": "http://soypunk.micro.blog/2018/10/02/ruben-verborgh-a.html",
 	      	
 			"content_html": "<p><a href=\"https://ruben.verborgh.org/blog/2017/12/20/paradigm-shifts-for-the-decentralized-web/\">Ruben Verborgh, a Solid developer &amp; linked data researcher outlines a comprehensive view of Solid’s vision</a>. FWIW, the instructions for <a href=\"https://solid.inrupt.com/docs/installing-running-nss\">spinning up your own Solid server</a> seem straightforward-ish.</p>\n",
